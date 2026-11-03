@@ -6,7 +6,7 @@
 
 | 项目 | 状态 |
 |---|---|
-| 知识库首版 | 本次整理并上传 |
+| 知识库首版 | 已上传，[查看首版提交](https://github.com/jessiewangqq/ftc-16095-knowledge/commit/331de2e8dfab44b999667e8c050f6f56737c4645) |
 | 成员名单和 GitHub 账号 | 待队伍确认，没有自动邀请或发送通知 |
 | 任务与问题模板 | 已放入 `.github/ISSUE_TEMPLATE/` |
 | PR 模板 | 已放入 `.github/pull_request_template.md` |
