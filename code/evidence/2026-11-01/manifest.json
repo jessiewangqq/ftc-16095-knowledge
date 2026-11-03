@@ -1,0 +1,29 @@
+{
+  "record_date": "2026-11-01",
+  "reviewed_date": "2026-11-03",
+  "source_sha": "c600214842e1c2c4d3b75428453c4d8f3fb9f3e3",
+  "rerun_on_review": false,
+  "hardware_connected": false,
+  "build_exit": 0,
+  "apk_repository_relative_path": "TeamCode/build/outputs/apk/debug/TeamCode-debug.apk",
+  "apk_size_bytes": 56374086,
+  "apk_sha256": "66b0447825bd4530f7b2c3e603684309d29ce8d3f3eea8c2b8593f07ef135a84",
+  "environment": {
+    "os": "macOS 26.6.2 arm64",
+    "java": "Android Studio JBR 25.0.3",
+    "gradle": "9.1.0",
+    "python": "3.9.6"
+  },
+  "java_checks": {
+    "active": 9,
+    "passed": 8,
+    "failed": 1,
+    "fully_commented_skipped": 7
+  },
+  "python_checks": {
+    "total": 17,
+    "passed": 16,
+    "errors": 1
+  },
+  "release_approved": false
+}

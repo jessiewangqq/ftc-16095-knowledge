@@ -1,0 +1,59 @@
+{
+  "compile_exit": 0,
+  "skipped_commented": [
+    "AdaptiveTurnPowerCheck.java",
+    "PedroConfigCheck.java",
+    "PedroRuntimeCheck.java",
+    "ScheduledControllerConfigCheck.java",
+    "ScheduledTurnPidCheck.java",
+    "StableCameraAimCheck.java",
+    "TuneStartSequenceCheck.java"
+  ],
+  "checks": [
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.drive.AutoAimPidfCheck",
+      "exit": 0,
+      "output": "PASS AutoAimPidfCheck: 48 actual-FTCLib PIDF, live tuning, limits, reset and lock assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.vision.FieldCoordinatesCheck",
+      "exit": 0,
+      "output": "PASS FieldCoordinatesCheck: 2540 centered-map, units and live-selection assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.vision.HiveGeometryCheck",
+      "exit": 0,
+      "output": "PASS HiveGeometryCheck: 768 visual-orientation, independent CAD/SDK, B-stop exclusion and odometry-continuation assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.opmodes.teleops.PracticeBlueCheck",
+      "exit": 0,
+      "output": "PASS PracticeBlueCheck: 73 assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.vision.RtCalibrationCheck",
+      "exit": 1,
+      "output": "Exception in thread \"main\" java.lang.AssertionError: the full three-frame spread is checked against its anchor\n\tat org.firstinspires.ftc.teamcode.subsystems.vision.RtCalibrationCheck.check(RtCalibrationCheck.java:42)\n\tat org.firstinspires.ftc.teamcode.subsystems.vision.RtCalibrationCheck.failuresRetryWithoutCooldown(RtCalibrationCheck.java:199)\n\tat org.firstinspires.ftc.teamcode.subsystems.vision.RtCalibrationCheck.main(RtCalibrationCheck.java:391)\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.shooter.ShooterDistanceCheck",
+      "exit": 0,
+      "output": "PASS ShooterDistanceCheck: 1041 assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.tests.ShooterPIDFeedCheck",
+      "exit": 0,
+      "output": "PASS ShooterPIDFeedCheck: 98 assertions\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.opmodes.autos.TestAutoCheck",
+      "exit": 0,
+      "output": "PASS TestAutoCheck: 1560 checks; real scheduler and transit timers\n"
+    },
+    {
+      "class": "org.firstinspires.ftc.teamcode.subsystems.vision.VisionCalibrationCheck",
+      "exit": 0,
+      "output": "PASS VisionCalibrationCheck: 97 direct overwrite, metadata, field registration, headless and tag-loss assertions\n"
+    }
+  ]
+}

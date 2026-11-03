@@ -1,0 +1,32 @@
+test_check_mode_never_calls_adb (__main__.UploadChecks) ... ERROR
+test_cleanup_failure_never_skips_connect_including_after_server_reset (__main__.UploadChecks) ... ok
+test_device_state_requires_working_shell (__main__.UploadChecks) ... ok
+test_does_not_restart_server_used_by_other_devices (__main__.UploadChecks) ... ok
+test_fresh_connection_succeeds_despite_no_old_device (__main__.UploadChecks) ... ok
+test_identical_installed_apk_is_not_reinstalled (__main__.UploadChecks) ... ok
+test_install_timeout_only_counts_success_if_exact_apk_matches (__main__.UploadChecks) ... ok
+test_live_output_exit_status_and_timeout_use_fake_process_only (__main__.UploadChecks) ... ok
+test_offline_already_connected_requires_real_response_and_server_recovery (__main__.UploadChecks) ... ok
+test_package_presence_alone_does_not_confirm_identity (__main__.UploadChecks) ... ok
+test_pm_failure_never_becomes_success (__main__.UploadChecks) ... ok
+test_push_then_install_success_and_scoped_cleanup (__main__.UploadChecks) ... ok
+test_ready_connection_is_left_alone (__main__.UploadChecks) ... ok
+test_transfer_timeout_never_runs_install (__main__.UploadChecks) ... ok
+test_unauthorized_does_not_silently_continue (__main__.UploadChecks) ... ok
+test_unresponsive_connection_fails_without_upload (__main__.UploadChecks) ... ok
+test_wrong_staged_checksum_blocks_install (__main__.UploadChecks) ... ok
+
+======================================================================
+ERROR: test_check_mode_never_calls_adb (__main__.UploadChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<code-repo>/local-tests/test_upload_offline.py", line 176, in test_check_mode_never_calls_adb
+    upload.main()
+  File "<code-repo>/upload-offline.py", line 243, in main
+    raise ValueError('缺少 ADB 或 APK；请先在联网时完成环境配置和编译。')
+ValueError: 缺少 ADB 或 APK；请先在联网时完成环境配置和编译。
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.943s
+
+FAILED (errors=1)

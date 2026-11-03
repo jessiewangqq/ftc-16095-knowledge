@@ -1,0 +1,12 @@
+2026-11-01 historical build log excerpts; not a new run.
+Source: c600214842e1c2c4d3b75428453c4d8f3fb9f3e3
+Exit code: 0
+
+> Task :FtcRobotController:compileDebugJavaWithJavac
+Java compiler version 25 has deprecated support for compiling with source/target version 8.
+Unable to strip the following libraries, packaging them as they are: libEasyOpenCV.so, libRobotCore.so, libapriltag.so, libc++_shared.so, libopencv_java4.so, libturbojpeg.so. Run with --info option to learn more.
+> Task :TeamCode:compileDebugJavaWithJavac
+Java compiler version 25 has deprecated support for compiling with source/target version 8.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+BUILD SUCCESSFUL in 38s
+52 actionable tasks: 52 executed

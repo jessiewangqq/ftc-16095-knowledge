@@ -1,0 +1,8 @@
+# 仅示例：全部注释，因此不会分配实际审查者。
+# 采用前把占位名称替换成真实、有仓库适当权限的用户或团队。
+# 团队写法为 @真实组织/真实团队slug；不要直接复制占位内容启用。
+# /TeamCode/ @REAL_ORG/REAL_CONTROL_TEAM
+# /TeamCode/src/main/java/org/firstinspires/ftc/teamcode/subsystems/drive/ @REAL_USER
+# /TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmodes/autos/ @REAL_ORG/REAL_AUTO_TEAM
+# CODEOWNERS 不自动等于必需审批；需要分支保护/规则集设置。
+# 多个 owner 不表示每个人都必须批准；核心控制的两人门槛仍需明确执行。

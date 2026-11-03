@@ -1,0 +1,21 @@
+# 系统、编辑器和个人 Obsidian 设置
+.DS_Store
+.idea/
+.vscode/
+.obsidian/
+*.swp
+__pycache__/
+*.pyc
+
+# 个人设备、凭据、原始视频与构建产物
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+local.properties
+private/
+raw-videos/
+*.apk
+*.aab
+build/
