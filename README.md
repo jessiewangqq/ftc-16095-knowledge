@@ -2,12 +2,13 @@
 
 把比赛规则、程序说明、训练进度和测试结果放在一起，方便队友找到资料、接着做。
 
-**资料更新日期：2026-11-04。** 这里整理了已有资料和公开代码分析。车上安装的版本、队员分工和实车成绩，仍要现场核对。本文档中的测试次数和训练安排是队内建议，不能当成 FIRST 官方要求。
+**资料更新日期：2026-11-04。** 这里整理了已有资料和公开代码分析。今天的任务与人员安排已由老师确认，见[11 月 4 日自动训练清单](plan/2026-11-04-AUTO-TRAINING.md)；车上版本和实车成绩仍需逐次记录。本文档中的测试次数和训练安排是队内建议，不能当成 FIRST 官方要求。
 
 ## 第一次打开，先看这些
 
 | 你现在想做什么 | 从这里开始 |
 |---|---|
+| 我想看 11 月 4 日的任务、分工和分支安排 | [今日自动训练清单](plan/2026-11-04-AUTO-TRAINING.md) · [当前进展](plan/BOARD.md) · [今日日报](daily/2026-11-04.md) |
 | 我想让 AI 按团队约定协助程序开发 | [程序开发 Skill](skills/README.md) |
 | 我刚加入，想知道怎样参与 | [新队员开始使用](START-HERE.md) |
 | 我想弄懂今年怎么比赛、怎么算分 | [规则入口](rules/README.md) |
@@ -19,10 +20,10 @@
 
 ## 当前能确认的情况
 
-- 公开程序仓库是 [FTC-16095-FatDragon-2027-Public](https://github.com/pengjinDaniel/FTC-16095-FatDragon-2027-Public)，默认分支是 `master`。检查日期、完整提交编号和代码证据统一放在[代码版本](code/BASELINE.md)。
+- 团队协作程序仓库是 [rdfz-robotics/FTC-16095-FatDragon-2027-Public](https://github.com/rdfz-robotics/FTC-16095-FatDragon-2027-Public)，默认分支是 `master`；原始公开仓库为 [pengjinDaniel/FTC-16095-FatDragon-2027-Public](https://github.com/pengjinDaniel/FTC-16095-FatDragon-2027-Public)。检查日期、完整提交编号和代码证据统一放在[代码版本](code/BASELINE.md)。
 - 手动驾驶、取球和辅助射击已有代码基础，具体限制见[程序现状](code/STATUS.md)。代码存在不代表已经实车通过。
 - 自动 30 秒争取 **2 次有效 TIP** 是当前备赛开发目标。实际能完成几次，要看测试记录；短离墙是调试步骤和失败备用方案。
-- 分工先留“待认领”。没有收到实测记录的任务先留“待现场确认”，不替同学填完成率或测试成绩。
+- 11 月 4 日自动训练分工已记录在[人员分工](team/ROLES.md)和[看板](plan/BOARD.md)；其他尚未确认的职责仍留待认领。没有实测记录的任务不代填完成率或测试成绩。
 - 本知识库与机器人程序分开管理。机器人仓库没有因本次建库而发生代码或权限变更。
 
 ## 资料放在哪里
@@ -36,7 +37,7 @@
 | [plan/](plan/BOARD.md) | 任务当前状态和本周、下周安排 |
 | [tasks/](tasks/INDEX.md) | 每项任务要做什么、怎么检查是否做好 |
 | [tests/](tests/README.md) | 测试步骤、真实结果和合并条件 |
-| [daily/](daily/2026-11-03.md) | 每天的新进展、卡住的地方和下一步 |
+| [daily/](daily/2026-11-04.md) | 每天的新进展、卡住的地方和下一步 |
 | [decisions/](decisions/TEMPLATE.md) | 重要选择及原因 |
 | [releases/](releases/REGISTRY.md) | 最终装车版本、比赛检查和恢复方法 |
 | [handoff/](handoff/TEMPLATE.md) | 现场了解进度和换人操作的记录 |
