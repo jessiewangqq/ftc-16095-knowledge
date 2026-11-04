@@ -1,11 +1,12 @@
 # GitHub 仓库与成员设置
 
-知识库地址：[jessiewangqq/ftc-16095-knowledge](https://github.com/jessiewangqq/ftc-16095-knowledge)。主干 `main`，按私有方式建立。机器人程序仍在原仓库独立管理。
+知识库地址：[jessiewangqq/ftc-16095-knowledge](https://github.com/jessiewangqq/ftc-16095-knowledge)。主干 `main`，首版按私有方式建立，现已公开（2026-11-04 通过 GitHub 接口复核）。机器人程序仍在原仓库独立管理。
 
 ## 当前状态
 
 | 项目 | 状态 |
 |---|---|
+| 可见性 | 已公开；阅读无需成员权限，写入仍需授权 |
 | 知识库首版 | 已上传，[查看首版提交](https://github.com/jessiewangqq/ftc-16095-knowledge/commit/331de2e8dfab44b999667e8c050f6f56737c4645) |
 | 成员名单和 GitHub 账号 | 待队伍确认，没有自动邀请或发送通知 |
 | 任务与问题模板 | 已放入 `.github/ISSUE_TEMPLATE/` |

@@ -1,11 +1,13 @@
 # 来源与整理说明
 
-整理日期：2026-11-03。本库将已有项目笔记整理为 GitHub 可阅读的 Markdown，使用普通相对链接。原 Obsidian 笔记继续保留在原位置。
+更新日期：2026-11-04。本库将已有项目笔记整理为 GitHub 可阅读的 Markdown，使用普通相对链接。原 Obsidian 笔记继续保留在原位置。
 
 | 资料 | 这次如何使用 |
 |---|---|
 | FIRST BIOBUZZ 官方手册及更新 | 规则摘要、条款和计分的依据，具体版本与链接见 [rules/SOURCES.md](rules/SOURCES.md) |
 | FTC 16095 公开程序仓库 | 代码分析依据，固定提交链接见 [code/BASELINE.md](code/BASELINE.md) |
+| 2026-11-04 用户提供的团队开发交接截图 | 整理当前自动开发方向、Pedro、功能复用和目录约定；原意与适用边界见 [Skill 项目背景](skills/rdfz-ftc-development/references/project-context.md)，不作为实车验收 |
+| Pedro 3 官方标定与测试文档、项目 tuning 1.0.1 依赖 | 核对 AutoTune 入口、标定动作和 Java 导出，见 [自动程序开发与标定](skills/rdfz-ftc-development/references/autonomous-workflow.md) |
 | 原项目笔记 01–12 | 整理程序架构、端口、操作、构建、协作与调试信息 |
 | 原项目笔记 13–17 | 整理规则速读、程序差距、动作拆解与验收建议 |
 | 30 分钟现场检查清单 | 整理 [现场了解进度](handoff/FIRST-VISIT-30MIN.md) |
